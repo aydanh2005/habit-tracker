@@ -30,6 +30,8 @@ This project was developed as part of the IU International University portfolio 
 ---
 
 ## Project Structure
+
+
 habit-tracker/
 ├── src/
 │ ├── main.py # CLI entry point of the application
@@ -39,7 +41,6 @@ habit-tracker/
 ├── tests/
 │ └── test_habits.py # Unit tests
 └── README.md
-
 ---
 
 ## How to Run the Application
