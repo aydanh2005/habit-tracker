@@ -25,16 +25,15 @@ DLBDSOOFPP01 – Object-Oriented and Functional Programming with Python
 
 ## Project Structure
 
+```text
 habit-tracker/
 ├── src/
 │   ├── main.py        # CLI entry point of the application
 │   ├── habit.py       # Habit class and habit logic
 │   ├── db.py          # Database management
 │   └── analytics.py   # Habit analysis functions
-│
 ├── tests/
 │   └── test_habits.py # Unit tests
-│
 └── README.md
 
 ## How to Run the Application
