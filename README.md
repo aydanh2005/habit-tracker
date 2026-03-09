@@ -44,51 +44,63 @@ habit-tracker/
 
 ---
 
+---
+
 ## How to Run the Application
 
 Clone the repository:
+
 git clone https://github.com/aydanh2005/habit-tracker.git
 
 Navigate to the project folder:
+
 cd habit-tracker
 
-Run the program:
+Run the application:
+
 python src/main.py
 
 ---
 
-## How to Use the Application
+## How to Use the Habit Tracker
 
-When the program starts, a menu appears in the terminal.
+After starting the program, a CLI menu will appear allowing you to manage habits.
 
-From the menu, you can:
+You can perform the following actions:
 
-- Create a new habit  
-- Delete a habit  
-- Check off a habit  
-- View all habits  
-- View habits by periodicity  
-- View the habit with the longest streak  
-- Load predefined habits  
-- Exit the program  
+Create a habit  
+Enter a habit name and select its periodicity (daily or weekly).
 
-To view only daily or weekly habits:
+Check off a habit  
+Record the completion of a habit for the current period.
 
-1. Select **View habits by periodicity**  
-2. Choose either **daily** or **weekly**
+View all habits  
+Display all stored habits and their details.
+
+View habits by periodicity  
+Filter habits to display only daily habits or only weekly habits.
+
+Analyze habits  
+Use the analytics functions to calculate habit streaks, including the longest streak.
+
+Delete habits  
+Remove habits from the tracker when they are no longer needed.
 
 ---
 
 ## Running Tests
 
 To run the unit tests:
+
 pytest
+
+The tests verify the core functionality of the application, including habit creation, completion tracking, streak calculation, and database operations.
 
 ---
 
 ## Author
 
-Aydan Huseynli  
+Aydan Huseynli
 
 Created for the IU module  
-**DLBDSOOFPP01 – Object-Oriented and Functional Programming with Python**
+DLBDSOOFPP01 – Object-Oriented and Functional Programming with Python
