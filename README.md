@@ -44,7 +44,6 @@ habit-tracker/
 
 ---
 
----
 
 ## How to Run the Application
 
