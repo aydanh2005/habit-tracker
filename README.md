@@ -122,9 +122,9 @@ To view only daily or weekly habits:
 ## Running Tests
 
 To run the unit tests:
-
+```
 pytest
-
+```
 The tests verify the core functionality of the application including habit creation, completion tracking, streak calculation, and database operations.
 
 ---
