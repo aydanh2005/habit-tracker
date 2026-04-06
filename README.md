@@ -8,6 +8,19 @@ DLBDSOOFPP01 – Object-Oriented and Functional Programming with Python
 
 ---
 
+## Project Highlights
+- Modular Python application with clear separation of responsibilities
+- Object-Oriented design using a custom Habit class
+- Functional programming approach for analytics
+- SQLite database for persistent storage
+- Command-Line Interface (CLI) for user interaction
+- Daily and weekly habit tracking
+- Accurate streak calculation based on periodicity
+- Predefined 4-week dataset for testing and validation
+- Automated testing using pytest
+
+---
+
 ## Features
 
 - Create, edit, and delete habits  
@@ -52,19 +65,37 @@ habit-tracker/
 
 ## How to Run the Application
 
-Clone the repository
+## 1. Clone the repository:
 
+```bash
 git clone https://github.com/aydanh2005/habit-tracker.git
-
-Navigate to the project folder
-
 cd habit-tracker
+```
+## 2. Create and activate a virtual environment
 
-Run the program
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+## 3. Install Dependencies
 
+```bash
+pip install pytest
+```
+## Run the application:
+
+```bash
 python src/main.py
-
+```
 ---
+
+## Screenshots
+
+### CLI Menu
+![CLI Menu](screenshots/cli-menu.png)
+
+### Pytest Results
+![Tests](screenshots/pytest-results.png)
 
 ## How to Use the Application
 
