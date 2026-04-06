@@ -46,7 +46,7 @@ habit-tracker/
 │
 └── README.md
 ```
-## Project Structure
+
 
 ---
 
