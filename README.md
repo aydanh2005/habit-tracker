@@ -1,6 +1,6 @@
 # Habit Tracker CLI Application
 
-This project is a command-line Habit Tracker application developed in Python using Object-Oriented Programming principles. The application allows users to create and manage habits, track their completion, and analyze habit streaks.
+This project is a command-line Habit Tracker application developed in Python using Object-Oriented Programming principles. The application allows users to create, manage, and track habits, as well as analyze habit streaks over time.
 
 This project was developed as part of the IU International University portfolio project for the module:
 
@@ -10,23 +10,25 @@ DLBDSOOFPP01 – Object-Oriented and Functional Programming with Python
 
 ## Features
 
-- Create and manage habits  
-- Track habit completion  
+- Create, edit, and delete habits  
+- Track habit completion (daily or weekly)  
 - Analyze habit streaks  
-- View habits by periodicity (daily or weekly)  
-- Filter habits to display daily or weekly habits separately  
-- Predefined habits for testing and demonstration  
-- Data stored persistently using SQLite  
-- Unit testing implemented with pytest  
+- View all habits  
+- Filter habits by periodicity (daily or weekly)  
+- Identify the habit with the longest streak  
+- Load predefined habits with 4 weeks of test data  
+- Persistent data storage using SQLite  
+- Unit testing implemented with pytest 
 
 ---
 
 ## Technologies Used
 
 - Python 3.11  
-- SQLite database  
-- pytest for unit testing  
+- SQLite (database storage)  
+- pytest (unit testing)  
 - Object-Oriented Programming (OOP)  
+- Functional Programming (analytics module) 
 
 ---
 ## Project Structure
