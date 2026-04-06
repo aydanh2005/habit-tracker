@@ -20,6 +20,15 @@ class Habit:
         timestamp = completed_at if completed_at else datetime.now().isoformat()
         self.completions.append(timestamp)
 
+    def edit(self, name=None, periodicity=None):
+        """
+        Edit the habit name and/or periodicity.
+        """
+        if name:
+            self.name = name
+        if periodicity:
+            self.periodicity = periodicity.lower()
+
     def to_dict(self):
         """
         Convert the Habit object into a dictionary.
